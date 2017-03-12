@@ -12,16 +12,24 @@
 <li>Count and display the number of available parking slots in parking lot.</li>
 <li>Real time tracking of the moving vehicles in the space.</li>
 </ul>
-
+<hr>
+<h3><p>Main Gui - Home Screen</p></h3>
 <Img src="https://raw.githubusercontent.com/a-mishra/Smart_Parking/master/snips%20of%20smartparking%204Nov16/1.PNG">
+<h3><p>Taking live feed from the camera-2</p></h3>
 <Img src="https://raw.githubusercontent.com/a-mishra/Smart_Parking/master/snips%20of%20smartparking%204Nov16/2.PNG">
+<h3><p>Settings Gui</p></h3>
 <Img src="https://raw.githubusercontent.com/a-mishra/Smart_Parking/master/snips%20of%20smartparking%204Nov16/3.PNG">
+<h3><p>Updating refrence image of vacant parking slot</p></h3>
 <Img src="https://raw.githubusercontent.com/a-mishra/Smart_Parking/master/snips%20of%20smartparking%204Nov16/4.png">
+<h3><p>Selection of parking slots</p></h3>
 <Img src="https://raw.githubusercontent.com/a-mishra/Smart_Parking/master/snips%20of%20smartparking%204Nov16/5.PNG">
+<h3><p>Configuring the cameras</p></h3>
 <Img src="https://raw.githubusercontent.com/a-mishra/Smart_Parking/master/snips%20of%20smartparking%204Nov16/6.PNG">
+<h3><p>Tweaking up the variables </p></h3>
 <Img src="https://raw.githubusercontent.com/a-mishra/Smart_Parking/master/snips%20of%20smartparking%204Nov16/7.PNG">
+<h3><p>Processed image after calculating number of vacant and filled parking slots</p></h3>
 <Img src="https://raw.githubusercontent.com/a-mishra/Smart_Parking/master/snips%20of%20smartparking%204Nov16/8.PNG">
-
+<hr>
 
 <h2>Future prospects</h2> 
 <ul>
