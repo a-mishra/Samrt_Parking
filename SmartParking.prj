@@ -1,0 +1,85 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="342802812" file="C:\Users\hp2\Desktop\Smart_parking_system_major\SmartParking.prj" location="C:\Users\hp2\Desktop\Smart_parking_system_major" name="SmartParking" target="target.mlapps" target-name="Package App">
+    <param.appname>SmartParking</param.appname>
+    <param.authnamewatermark>Ashutosh Mishra</param.authnamewatermark>
+    <param.email>ashutosh.m812@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}\App</param.output>
+    <param.guid>965c03cf-88bd-411a-b8dc-8c608485026b</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\MainGUI.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2016b\toolbox\matlab\hardware\supportpackages\ipcamera\+ipcamera\+internal\IpcamController.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2016b\toolbox\matlab\hardware\supportpackages\ipcamera\+ipcamera\+internal\PreviewController.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2016b\toolbox\matlab\hardware\supportpackages\ipcamera\+ipcamera\+internal\Utility.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2016b\toolbox\matlab\hardware\supportpackages\ipcamera\ipcam.m</file>
+      <file>${PROJECT_ROOT}\cameraconfig.fig</file>
+      <file>${PROJECT_ROOT}\cameraconfig.m</file>
+      <file>${PROJECT_ROOT}\controlling.m</file>
+      <file>${PROJECT_ROOT}\guessthesix.m</file>
+      <file>${PROJECT_ROOT}\initialsp1.png</file>
+      <file>${PROJECT_ROOT}\MainGUI.fig</file>
+      <file>${PROJECT_ROOT}\NewTemplates.mat</file>
+      <file>${PROJECT_ROOT}\numberPlateExtraction1.m</file>
+      <file>${PROJECT_ROOT}\numberPlateExtraction2.m</file>
+      <file>${PROJECT_ROOT}\print2.jpg</file>
+      <file>${PROJECT_ROOT}\readChar.m</file>
+      <file>${PROJECT_ROOT}\readLetter.m</file>
+      <file>${PROJECT_ROOT}\readNumber.m</file>
+      <file>${PROJECT_ROOT}\refcam3.jpg</file>
+      <file>${PROJECT_ROOT}\Settings.fig</file>
+      <file>${PROJECT_ROOT}\Settings.m</file>
+      <file>${PROJECT_ROOT}\slots.mat</file>
+      <file>${PROJECT_ROOT}\takeboxes.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\hp2\Desktop\Smart_parking_system_major" name="App" optional="false">C:\Users\hp2\Desktop\Smart_parking_system_major\App</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2016b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

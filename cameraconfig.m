@@ -22,7 +22,7 @@ function varargout = cameraconfig(varargin)
 
 % Edit the above text to modify the response to help cameraconfig
 
-% Last Modified by GUIDE v2.5 14-Nov-2016 19:36:39
+% Last Modified by GUIDE v2.5 27-Mar-2017 01:09:05
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -124,6 +124,61 @@ a=load('slots.mat', 'camurl2');
 set(hObject,'String',a.camurl2)
 end
 
+
+function edit3_Callback(hObject, eventdata, handles)
+% hObject    handle to edit3 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edit3 as text
+%        str2double(get(hObject,'String')) returns contents of edit3 as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edit3_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edit3 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+try
+a=load('slots.mat', 'camurl3');
+set(hObject,'String',a.camurl3)
+end
+
+
+
+function edit4_Callback(hObject, eventdata, handles)
+% hObject    handle to edit4 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edit4 as text
+%        str2double(get(hObject,'String')) returns contents of edit4 as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edit4_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edit4 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+try
+a=load('slots.mat', 'camurl4');
+set(hObject,'String',a.camurl4)
+end
+
+
+
 % --- Executes on button press in pushbutton1.
 function pushbutton1_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton1 (see GCBO)
@@ -133,4 +188,8 @@ camurl1 = get(handles.edit1,'String');
 save('slots.mat', 'camurl1','-append');
 camurl2 = get(handles.edit2,'String');
 save('slots.mat', 'camurl2','-append');
+camurl3 = get(handles.edit3,'String');
+save('slots.mat', 'camurl3','-append');
+camurl4 = get(handles.edit4,'String');
+save('slots.mat', 'camurl4','-append');
 close(cameraconfig);
