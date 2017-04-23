@@ -151,7 +151,7 @@ switch popup_sel_index
             y = [y ':']
             y = [y num2str(x(5))]
             set(handles.text4, 'String',numberplate);
-            set(handles.text5, 'String',class);
+            set(handles.text5, 'String','CAR');
             set(handles.text6, 'String',y);
             if (numberplate == '0')
             msgbox({'!!! Number plate Cant be read !!!'},'Error')
@@ -177,7 +177,7 @@ switch popup_sel_index
             set(handles.text1, 'String','Vehicle No.              :');
             set(handles.text2, 'String','Time of Exit         :');
             set(handles.text3, 'String','Amount         :');
-            [numberplate,class,amount] = numberPlateExtraction1(img,'In');
+            [numberplate,class,amount] = numberPlateExtraction1(img,'Ot');
             %set the status panel
             x=clock;
             y = num2str(x(2))
